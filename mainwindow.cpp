@@ -38,5 +38,5 @@ void MainWindow::updateDisplay()
                                           x0+v0*dt, v1+a_harmonic(x0,v0,t0)*dt));
 
     int chosen_plot = ui->plotComboBox->currentIndex();
-    myplot(ui->myCustomPlot, chosen_plot, x0, v0, chosen_a(pot));
+    myplot(ui->myCustomPlot, chosen_plot, x0, v0, dt, chosen_a(pot));
 }
