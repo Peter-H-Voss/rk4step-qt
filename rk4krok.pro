@@ -15,10 +15,14 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     rk41d.cpp \
-    pot.cpp
+    pot.cpp \
+    qcustomplot.cpp \
+    myplot.cpp
 
 HEADERS  += mainwindow.h \
     rk41d.h \
-    pot.h
+    pot.h \
+    qcustomplot.h \
+    myplot.h
 
 FORMS    += mainwindow.ui
